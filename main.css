@@ -1,0 +1,71 @@
+html {
+  background-color: grey;
+}
+
+iframe {
+  display: block;
+}
+
+.logoNav {
+  height: 50px;
+  width: auto;
+}
+
+.navigationText {
+  font-size: 20px;
+  float: right;
+  margin-top: 0%;
+  margin-right: 3%;
+}
+
+.navList {
+  list-style: none;
+}
+
+.navListBullet {
+  display: inline;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+a:active {
+  text-decoration: none;
+  color: red;
+}
+
+.headerStuff {
+  font-size: 50px;
+  text-align: center;
+  float: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2px;
+}
+
+.youtubeFrame {
+
+}
+
+.copyrightAndWarnings {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.merchFrame {
+  margin-left: 10%;
+  margin-right: 10%;
+}

@@ -1,0 +1,109 @@
+html {
+    background-image: linear-gradient(rgba(255,0,0,255), rgba(126,0,0,255));
+}
+
+/* FLEX ALIGNMENT */
+
+.topFlex {
+    align-self: flex-start;
+    text-align: center;
+    align-items: center;
+}
+
+.middleFlex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomFlex {
+    align-self: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+/* MAIN PAGE */
+
+#mainContent {
+    margin-top: 3%;
+    align-items: center;
+    text-align: center;
+    font-family: "Noto Sans", serif;
+    color: white;
+}
+
+#footer {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    align-items: center;
+    text-align: center;
+    font-family: "Noto Sans", serif;
+    color: white;
+}
+
+/* INDIVIDUAL STUFF */
+
+.mainLogo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.bottomLogo {
+    max-width: 100px;
+}
+
+.titleText {
+    font-size: 150%;
+}
+
+.copyright {
+    color: white;
+    font-family: "Noto Sans", serif;
+}
+
+/* COPYRIGHT STUFF */
+
+.copyrightFooter {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(126,0,0,255);
+}
+
+.copyDiv {
+    align-items: center;
+    text-align: center;
+}
+
+/* BUTTON STUFF */
+
+.mainButton {
+    background-color: rgba(255,0,0,255);
+    border: 5px solid rgba(126,0,0,255);
+    border-radius: 100px;
+    color: white;
+    font-family: "Noto Sans", serif;
+    min-width: 300px;
+    width: 30%;
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+
+.mainButton:hover {
+    background-color: rgba(200,0,0,255);
+}
+
+.buttonTop {
+    font-size: 70%;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+.buttonBottom {
+    font-size: 60%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}

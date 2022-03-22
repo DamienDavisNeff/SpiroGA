@@ -1,0 +1,160 @@
+html {
+    background-image: linear-gradient(rgba(255,0,0,255), rgba(126,0,0,255));
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* FLEX ALIGNMENT */
+
+.topFlex {
+    align-self: flex-start;
+    text-align: center;
+    align-items: center;
+}
+
+.middleFlex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomFlex {
+    align-self: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+/* MAIN PAGE */
+
+#mainContent {
+    margin-top: 3%;
+    margin-bottom: 25%;
+    align-items: center;
+    text-align: center;
+    font-family: "Noto Sans", serif;
+    color: white;
+}
+
+#header {
+    font-family: "Noto Sans", serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav {
+    margin-top: 40px;
+    margin-right: 40px;
+    text-align: right;
+}
+
+#footer {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    align-items: center;
+    text-align: center;
+    font-family: "Noto Sans", serif;
+    color: white;
+}
+
+/* INDIVIDUAL STUFF */
+
+.mainLogo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 5%;
+}
+
+.mainLinks {
+    margin-right: 10px;
+}
+
+.mainTitle {
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+
+.mainHeader {
+    font-size: 250%;
+    margin-top: 25%;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    color: white;
+    font-family: "Noto Sans", serif;
+}
+
+/* COPYRIGHT STUFF */
+
+.copyrightFooter {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(126,0,0,255);
+}
+
+.copyDiv {
+    align-items: center;
+    text-align: center;
+}
+
+/* BUTTON STUFF */
+
+.mainButton {
+    background-color: rgba(255,0,0,255);
+    border: 5px solid rgba(126,0,0,255);
+    border-radius: 100px;
+    color: white;
+    font-family: "Noto Sans", serif;
+    min-width: 200px;
+    width: 10%;
+    font-size: 200%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.mainButton:hover {
+        background-color: rgba(200,0,0,255);
+}
+
+.buttonTop {
+    font-size: 70%;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.buttonBottom {
+    font-size: 60%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+/* LINKS */
+
+a {
+    color: rgba(200,200,200,255);
+    text-decoration: none;
+}
+
+.mainLinks {
+    color: white;
+}
+
+.mainLinks:hover {
+    color: rgba(120,120,120,255);
+}
+
+a:hover {
+    color: rgba(120,120,120,255);
+    text-decoration: none;
+}
