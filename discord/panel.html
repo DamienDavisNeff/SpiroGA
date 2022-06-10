@@ -1,0 +1,48 @@
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <title>Discord</title>
+    <script type="text/javascript" src="discord.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+    <link href="discord.css" rel="stylesheet">
+  </head>
+  <body>
+    <span id="middle">
+        <img src="images/discord.png" style="margin-top:5%;margin-bottom:5%;" id="titleImage">
+    </span>
+
+    <div id="options">
+        <!-- <span id="middle">
+            <input id="webhook" placeholder="Webhook URL" style="width: 50%"></input>
+        </span> -->
+        <span id="middle">
+            <input id="Title" placeholder="Embed Title" style="width: 23%">
+            <input id="Description" placeholder="Embed Description" style="width: 77%">
+        </span>
+        <span id="middle">
+            <input id="ImageURL" placeholder="Embed Image URL" style="width: 100%">
+        </span>
+        <span id="middle">
+            <input id="ThumbnailURL" placeholder="Embed Thumbnail URL" style="width: 100%">
+        </span>
+        <span id="middle">
+            <input id="AuthorName" placeholder="Author Name" style="width: 23%">
+            <input id="AuthorURL" placeholder="Author Site" style="width: 26%">
+            <input id="AuthorImageURL" placeholder="Author Image URL" style="width: 50%">
+        </span>
+        <span id="middle" style="margin-bottom: 0%;">
+            <input id="FooterTitle" placeholder="Footer Title" style="width: 50%">
+            <input id="FooterImageURL" placeholder="Footer Image URL" style="width: 50%">
+        </span>
+    </div>
+
+    <br>
+
+    <span id="middle">
+        <button onclick="ClickedButton()"><p class="buttonText">Send Message</p></button>
+    </span>
+    <span id="middle">
+        <p id="results"></p>
+    </span>
+
+
+</body></html>
